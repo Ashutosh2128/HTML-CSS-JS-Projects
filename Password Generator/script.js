@@ -14,7 +14,7 @@ const symbols = '~`!@#$%^&*()_-+={[}]|:;"<,>.?/';
 
 let password = "";
 let passwordLength = 10; 
-let checkCount = 0;
+let checkCount = 2;
 handleSlider();
 //set strengthcircle color to grey
 setIndicator('#ccc');
@@ -177,7 +177,7 @@ generateBtn.addEventListener('click', () => {
     if(uppercaseCheck.checked)
         funcArr.push(generateUpperCase);
 
-    if(lowercaseCheck.ckecked)
+    if(lowercaseCheck.checked)
         funcArr.push(generateLowerCase);
 
     if(numbersCheck.checked)
